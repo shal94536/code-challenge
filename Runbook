@@ -1,0 +1,19 @@
+Contributor : Shallini Allamsetti  (shal.94536@gmail.com)
+Please update the input.txt file (in input folder) with your test data, whatever you want to test this code
+
+just run command like below to execute code (python3 <scriptname> <number of customers u want> <inputfile.txt>
+ python3 Pass_event 5 input.txt    (To get top5 customers with the highest Simple Lifetime Value from data given in input.txt)
+ python3 Pass_event 10 input.txt    (To get top10 customers with the highest Simple Lifetime Value from data given in input.txt)
+
+Once ran, You can check output in file output.txt file in output folder
+For your convenience, Program prints output on the console as well
+
+FYI,
+I did not use any exotic/pre-built libraries. Hence i dont need need to build Docker container for this.The can run on
+any stand-alone platform with python2 or python3
+
+Basic exception handling is done.If you dont pass required params to,Pass_event.py will print appropriate error message
+
+Customer who made more revenue to us (in terms of Order amount) all together out of all his/her visits will be topper. Number of visits he paid is not the primary factor
+
+I used in-memory data storage such as Python dictinories, as said in problem statement

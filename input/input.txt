@@ -1,1 +1,214 @@
-Your input data here
+[{
+		"type": "CUSTOMER",
+		"verb": "NEW",
+		"key": "03391a1285",
+		"event_time": "2020-02-02T12:46:46.384Z",
+		"last_name": "Brandon",
+		"adr_city": "Orlando",
+		"adr_state": "FL"
+	},
+	{
+		"type": "SITE_VISIT",
+		"verb": "NEW",
+		"key": "co80en11gl1",
+		"event_time": "2020-02-02T12:45:52.041Z",
+		"customer_id": "03391a1285",
+		"tags": [{
+			"pageid": "x123"
+		}]
+	},
+	{
+		"type": "IMAGE",
+		"verb": "UPLOAD",
+		"key": "ge141lb90816",
+		"event_time": "2020-02-02T12:47:12.344Z",
+		"customer_id": "03391a1285",
+		"camera_make": "Canon",
+		"camera_model": "EOS 80D"
+	},
+	{
+		"type": "ORDER",
+		"verb": "NEW",
+		"key": "mr94wy536",
+		"event_time": "2020-02-02T12:55:55.555Z",
+		"customer_id": "03391a1285",
+		"total_amount": "12.34 USD"
+	},
+	{
+		"type": "CUSTOMER",
+		"verb": "NEW",
+		"key": "03391a1285",
+		"event_time": "2020-06-08T12:46:46.384Z",
+		"last_name": "Brandon",
+		"adr_city": "Orlando",
+		"adr_state": "FL"
+	},
+	{
+		"type": "SITE_VISIT",
+		"verb": "NEW",
+		"key": "co80en11gl1",
+		"event_time": "2020-06-08T12:45:52.041Z",
+		"customer_id": "03391a1285",
+		"tags": [{
+			"some key": "some value"
+		}]
+	},
+	{
+		"type": "IMAGE",
+		"verb": "UPLOAD",
+		"key": "ge141lb90816",
+		"event_time": "2020-01-08T12:47:12.344Z",
+		"customer_id": "03391a1285",
+		"camera_make": "Canon",
+		"camera_model": "EOS 80D"
+	},
+	{
+		"type": "ORDER",
+		"verb": "NEW",
+		"key": "mr94wy536",
+		"event_time": "2020-06-08T12:55:55.555Z",
+		"customer_id": "03391a1285",
+		"total_amount": "52.88 USD"
+	}, {
+		"type": "CUSTOMER",
+		"verb": "NEW",
+		"key": "ng522plm004",
+		"event_time": "2020-06-01T10:20:46.384Z",
+		"last_name": "Jake",
+		"adr_city": "Irving",
+		"adr_state": "TX"
+	},
+	{
+		"type": "SITE_VISIT",
+		"verb": "NEW",
+		"key": "co80en11gl1",
+		"event_time": "2020-06-01T10:26:52.041Z",
+		"customer_id": "ng522plm004",
+		"tags": [{
+			"some key": "some value"
+		}]
+	},
+	{
+		"type": "IMAGE",
+		"verb": "UPLOAD",
+		"key": "ge141lb90816",
+		"event_time": "2020-06-01T10:30:12.344Z",
+		"customer_id": "ng522plm004",
+		"camera_make": "Canon",
+		"camera_model": "EOS 80D"
+	},
+	{
+		"type": "ORDER",
+		"verb": "NEW",
+		"key": "mr94wy536",
+		"event_time": "2020-06-01T10:45:55.555Z",
+		"customer_id": "ng522plm004",
+		"total_amount": "6.24 USD"
+	}, {
+		"type": "CUSTOMER",
+		"verb": "NEW",
+		"key": "03391a1285",
+		"event_time": "2020-06-09T10:46:46.384Z",
+		"last_name": "Brandon",
+		"adr_city": "Orlandon",
+		"adr_state": "FL"
+	},
+	{
+		"type": "SITE_VISIT",
+		"verb": "NEW",
+		"key": "co80en11gl1",
+		"event_time": "2020-06-09T10:45:52.041Z",
+		"customer_id": "03391a1285",
+		"tags": [{
+			"some key": "some value"
+		}]
+	},
+	{
+		"type": "IMAGE",
+		"verb": "UPLOAD",
+		"key": "ge141lb90816",
+		"event_time": "2020-06-09T10:47:12.344Z",
+		"customer_id": "03391a1285",
+		"camera_make": "Canon",
+		"camera_model": "EOS 80D"
+	},
+	{
+		"type": "ORDER",
+		"verb": "NEW",
+		"key": "mr94wy536",
+		"event_time": "2020-06-09T10:55:55.555Z",
+		"customer_id": "03391a1285",
+		"total_amount": "99.98 USD"
+	}, {
+		"type": "CUSTOMER",
+		"verb": "NEW",
+		"key": "ng522plm004",
+		"event_time": "2020-01-29T10:20:46.384Z",
+		"last_name": "Jake",
+		"adr_city": "Irving",
+		"adr_state": "TX"
+	},
+	{
+		"type": "SITE_VISIT",
+		"verb": "NEW",
+		"key": "co80en11gl1",
+		"event_time": "2020-01-29T10:26:52.041Z",
+		"customer_id": "ng522plm004",
+		"tags": [{
+			"some key": "some value"
+		}]
+	},
+	{
+		"type": "IMAGE",
+		"verb": "UPLOAD",
+		"key": "ge141lb90816",
+		"event_time": "2020-01-29T10:30:12.344Z",
+		"customer_id": "ng522plm004",
+		"camera_make": "Canon",
+		"camera_model": "EOS 80D"
+	},
+	{
+		"type": "ORDER",
+		"verb": "NEW",
+		"key": "mr94wy536",
+		"event_time": "2020-01-29T10:45:55.555Z",
+		"customer_id": "ng522plm004",
+		"total_amount": "14.00 USD"
+	},
+	{
+		"type": "CUSTOMER",
+		"verb": "NEW",
+		"key": "07mcs021",
+		"event_time": "2020-02-02T12:46:46.384Z",
+		"last_name": "Ryan",
+		"adr_city": "Atlanta",
+		"adr_state": "GA"
+	},
+	{
+		"type": "SITE_VISIT",
+		"verb": "NEW",
+		"key": "co80en11gl1",
+		"event_time": "2020-02-02T12:45:52.041Z",
+		"customer_id": "07mcs021",
+		"tags": [{
+			"some key": "some value"
+		}]
+	},
+	{
+		"type": "IMAGE",
+		"verb": "UPLOAD",
+		"key": "ge141lb90816",
+		"event_time": "2020-02-02T12:47:12.344Z",
+		"customer_id": "07mcs021",
+		"camera_make": "Canon",
+		"camera_model": "EOS 80D"
+	},
+	{
+		"type": "ORDER",
+		"verb": "NEW",
+		"key": "mr94wy536",
+		"event_time": "2020-02-02T12:55:55.555Z",
+		"customer_id": "07mcs021",
+		"total_amount": "125.86 USD"
+	}
+]
